@@ -12,4 +12,4 @@ const generateToken = (res, userid) => {
     });
 }
 
-export default generateToken
+export default generateToken;
