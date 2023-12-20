@@ -1,11 +1,15 @@
+import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
-import Home from "./pages/home";
+
+import { Container } from "react-bootstrap";
 
 const App = () => {
   return (
     <>
       <Header />
-      <Home/>
+      <Container className="my-2">
+        <Outlet />
+      </Container>
     </>
   );
 };
