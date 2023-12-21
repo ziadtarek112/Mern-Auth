@@ -60,7 +60,7 @@ const Register = () => {
         </Button>
         <Row className="py-3">
           <Col>
-            already have an account ? <Link to="/login">Sign Up</Link>
+            already have an account ? <Link to="/login">login</Link>
           </Col>
         </Row>
       </form>
